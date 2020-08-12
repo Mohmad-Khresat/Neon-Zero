@@ -2,7 +2,7 @@ body{
 background-color: #000000;
 background-image: url('https://media1.giphy.com/media/l0ExdcoJdq9fYVoyc/source.gif');
 background-repeat: no-repeat;
-background-position: center center;
+background-position: center;
 background-attachment: fixed;
 background-size: cover;
 }
