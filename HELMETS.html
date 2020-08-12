@@ -1,0 +1,101 @@
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="HELMETS.css">
+    <title>HELMETS</title>
+</head>
+<body>
+  <style>
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 33px;
+    border: none;
+    outline: none;
+    background-color: rgb(33, 20, 65);
+    color: rgb(255, 0, 170);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(0, 0, 0);
+  }
+  </style>
+  </head>
+  
+  <button onclick="topFunction()" id="myBtn" title="Go to top">&#8686;</button>
+  
+  
+  
+  <script>
+  var mybutton = document.getElementById("myBtn");
+  
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+<h2 style="text-align:center">HELMETS</h2>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<div class="card">
+  <img src="https://www.revzilla.com/product_images/0070/3821/shoei_rf1200_helmet_solid_matte_black_300x300.jpg" alt="" style="width:100%">
+  <h1>Full Face Helmets</h1>
+  <p><button>SHOP</button></p>
+</div>
+<div class="card">
+    <img src="https://cdn11.bigcommerce.com/s-7nlvmei/images/stencil/1280x1280/products/4987/9095/matteblack__84730.1458331297.jpg?c=2&imbypass=on" alt="" style="width:100%">
+    <h1>Modular Helmets</h1>
+    <p><button>SHOP</button></p>
+  </div>
+  <div class="card">
+    <img src="https://www.revzilla.com/product_images/0327/9360/bell_mx9_adventure_mips_helmet_300x300.jpg" alt="" style="width:100%">
+    <h1>Dual Sport Helmets</h1>
+    <p><button>SHOP</button></p>
+  </div>
+  <div class="card">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/61akCOvxYML._AC_SX355_.jpg" alt="" style="width:100%">
+    <h1>Dirt Helmets</h1>
+    <p><button>SHOP</button></p>
+  </div>
+  <div class="card">
+    <img src="https://varuste.net/tiedostot/1/kuva/tuote/alkuperainen/12728600.jpg" alt="" style="width:100%">
+    <h1>Snow Helmets</h1>
+    <p><button>SHOP</button></p>
+  </div>
+  <div class="card">
+    <img src="https://cdn.shopify.com/s/files/1/2334/0805/products/CASCH007MB_700x.jpg?v=1534302608" alt="" style="width:100%">
+    <h1>Open Face Helmets</h1>
+    <p><button>SHOP</button></p>
+  </div>
+  <div class="card">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/71nmtpEfNcL._AC_SL1500_.jpg" alt="" style="width:100%">
+    <h1>Half Helmets</h1>
+    <p><button>SHOP</button></p>
+  </div>
+  
+
+</body>
+</html>
+
+  
+
+

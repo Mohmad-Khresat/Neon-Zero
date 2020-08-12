@@ -1,0 +1,119 @@
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TIRES.css">
+    <title>TIRES</title>
+</head>
+<body>
+  <style>
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 33px;
+    border: none;
+    outline: none;
+    background-color: rgb(33, 20, 65);
+    color: rgb(255, 0, 170);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(0, 0, 0);
+  }
+  </style>
+  </head>
+  
+  <button onclick="topFunction()" id="myBtn" title="Go to top">&#8686;</button>
+  
+  
+  
+  <script>
+  var mybutton = document.getElementById("myBtn");
+  
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+<h2 style="text-align:center">TIRES</h2>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<div class="card">
+  <img src="https://i.pinimg.com/236x/bc/0a/6f/bc0a6f5d4029b6e869ca59118af87c3d--motorcycle-tires-motorcycle-touring.jpg" alt="" style="width:100%">
+  <h1>Touring</h1>
+  <p><button>SHOP</button></p>
+</div>
+<div class="card">
+    <img src="https://www.revzilla.com/product_images/0384/3473/continental_sport_attack3_tires_300x300.jpg" alt="" style="width:100%">
+    <h1>Sport</h1>
+    <p><button>SHOP</button></p>
+  </div>
+  <div class="card">
+    <img src="https://cdn.wpsstatic.com/images/1000_max/0cd8-588b9dfc3aa9b.jpg" alt="" style="width:100%">
+    <h1>Harley & Cruiser</h1>
+    <p><button>SHOP</button></p>
+  </div>
+  <div class="card">
+    <img src="https://www.revzilla.com/product_images/0384/4342/continental_conti_attack_sm_supermoto_tires_750x750.jpg" alt="" style="width:100%">
+    <h1>Super Moto</h1>
+    <p><button>SHOP</button></p>
+  </div>
+  <div class="card">
+    <img src="https://www.revzilla.com/product_images/0002/9058/Continental_Twinduro_TKC80_Dual_Sport_Tires.jpg" alt="" style="width:100%">
+    <h1>Dual Sport</h1>
+    <p><button>SHOP</button></p>
+  </div>
+  <div class="card">
+    <img src="https://cdn11.bigcommerce.com/s-7suykiwpwy/images/stencil/500x659/products/210/1032/MAxxcross_ST_Pair__66101.1563225269.png?c=2&imbypass=on" alt="" style="width:100%">
+    <h1>Dirt</h1>
+    <p><button>SHOP</button></p>
+  </div>
+  <div class="card">
+    <img src="https://www.revzilla.com/product_images/0365/8263/pirelli_diablo_supercorsa_v3_tires_300x300.jpg" alt="" style="width:100%">
+    <h1>Race</h1>
+    <p><button>SHOP</button></p>
+  </div>
+  <div class="card">
+    <img src="https://d3nv2arudvw7ln.cloudfront.net/images/global/641/281/diablo-scooter-3-4-4505479675578.jpg" alt="" style="width:100%">
+    <h1>Scooter</h1>
+    <p><button>SHOP</button></p>
+  </div>
+  <div class="card">
+    <img src="https://cdn1.bikebandit-images.com/product_images/sh/450/shinko-super-classic-270-motorcycle-tire.jpg" alt="" style="width:100%">
+    <h1>Vintage</h1>
+    <p><button>SHOP</button></p>
+  </div>
+  <div class="card">
+    <img src="https://mstore.motobotz.com/images/Tire_Accessories.webp" alt="" style="width:100%">
+    <h1>Accessories</h1>
+    <p><button>SHOP</button></p>
+  </div>
+  
+  
+
+
+</body>
+</html>
+
+  
+
+

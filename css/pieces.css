@@ -1,0 +1,23 @@
+.pieces {
+	width: 58.6572vh;  
+	height: 90vh;  
+	margin: auto;
+	flex: none;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.piece {
+	pointer-events: none;
+}
+
+@media screen and (max-aspect-ratio: 597/916) {
+	.pieces {
+		width: 80vw;
+		height: 122.75vw;
+	}
+}
